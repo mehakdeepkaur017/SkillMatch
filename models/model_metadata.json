@@ -1,0 +1,33 @@
+{
+  "dataset_type": "Curated Starter Benchmark Dataset (15 Roles, 5 Categories)",
+  "num_roles": 15,
+  "num_training_samples": 60,
+  "validation_strategy": "Stratified 5-Fold Cross-Validation",
+  "category_cv_accuracy_mean": 0.8833333333333332,
+  "category_cv_accuracy_std": 0.04082482904638627,
+  "categories": [
+    "Business & Analytics",
+    "Cloud & Infrastructure",
+    "Cybersecurity",
+    "Data & Analytics",
+    "Software Engineering"
+  ],
+  "roles": [
+    "AI Engineer",
+    "Backend Developer",
+    "Business Analyst",
+    "Cloud / DevOps Engineer",
+    "Cyber Security Analyst",
+    "Data Analyst",
+    "Data Engineer",
+    "Data Scientist",
+    "Database Administrator",
+    "Frontend Developer",
+    "Full Stack Web Developer",
+    "Machine Learning Engineer",
+    "Mobile App Developer",
+    "Python Developer",
+    "QA Automation Engineer"
+  ],
+  "note": "Metrics reflect performance on the curated starter benchmark corpus. Confidence levels represent softmax class probabilities and should be interpreted as domain alignment indicators rather than real-world hiring probabilities."
+}

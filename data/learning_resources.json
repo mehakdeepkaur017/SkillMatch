@@ -1,0 +1,569 @@
+{
+  "Python": {
+    "importance": "Critical",
+    "description": "General-purpose programming language essential for Data Science, Backend, and ML.",
+    "stages": {
+      "Beginner": {
+        "topics": "Syntax, loops, conditionals, functions, lists, dicts, file I/O, error handling",
+        "resources": [
+          {
+            "title": "Python Official Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "Documentation",
+            "free": true
+          },
+          {
+            "title": "Scientific Computing with Python",
+            "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+            "type": "Interactive Course",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "OOP, list comprehensions, decorators, generators, virtual environments, unit tests",
+        "resources": [
+          {
+            "title": "Real Python Tutorials",
+            "url": "https://realpython.com/",
+            "type": "Articles & Guides",
+            "free": true
+          },
+          {
+            "title": "Python for Everybody (Coursera)",
+            "url": "https://www.coursera.org/specializations/python",
+            "type": "Course",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Concurrency, asyncio, profiling, memory management, C extensions, metaclasses",
+        "resources": [
+          {
+            "title": "Fluent Python Book / Guide",
+            "url": "https://docs.python.org/3/library/asyncio.html",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "SQL": {
+    "importance": "Critical",
+    "description": "Relational database querying and management standard for extracting business data.",
+    "stages": {
+      "Beginner": {
+        "topics": "SELECT, WHERE, ORDER BY, GROUP BY, aggregates (COUNT, SUM, AVG), INNER/LEFT JOIN",
+        "resources": [
+          {
+            "title": "SQLBolt - Interactive SQL Lessons",
+            "url": "https://sqlbolt.com/",
+            "type": "Interactive",
+            "free": true
+          },
+          {
+            "title": "W3Schools SQL Tutorial",
+            "url": "https://www.w3schools.com/sql/",
+            "type": "Tutorial",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "Subqueries, CTEs (WITH clause), Window Functions (ROW_NUMBER, RANK, OVER), indexes",
+        "resources": [
+          {
+            "title": "Mode Analytics SQL Tutorial",
+            "url": "https://mode.com/sql-tutorial/",
+            "type": "Tutorial",
+            "free": true
+          },
+          {
+            "title": "PostgreSQL Official Documentation",
+            "url": "https://www.postgresql.org/docs/",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Query plan optimization (EXPLAIN ANALYZE), partitioning, stored procedures, transactions",
+        "resources": [
+          {
+            "title": "Use The Index, Luke (SQL Performance)",
+            "url": "https://use-the-index-luke.com/",
+            "type": "Guide",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "Machine Learning": {
+    "importance": "Critical",
+    "description": "Algorithmic modeling for regression, classification, clustering, and pattern discovery.",
+    "stages": {
+      "Beginner": {
+        "topics": "Supervised vs unsupervised, train/test split, linear regression, logistic regression",
+        "resources": [
+          {
+            "title": "Scikit-Learn Getting Started Guide",
+            "url": "https://scikit-learn.org/stable/getting_started.html",
+            "type": "Documentation",
+            "free": true
+          },
+          {
+            "title": "Kaggle Intro to Machine Learning",
+            "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+            "type": "Interactive Course",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "Decision trees, Random Forests, XGBoost, cross-validation, feature engineering, evaluation metrics (ROC-AUC, F1)",
+        "resources": [
+          {
+            "title": "Machine Learning Specialization (Andrew Ng)",
+            "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+            "type": "Course",
+            "free": true
+          },
+          {
+            "title": "Kaggle Intermediate Machine Learning",
+            "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+            "type": "Interactive",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Hyperparameter optimization, pipeline automation, model explainability (SHAP, LIME), MLOps",
+        "resources": [
+          {
+            "title": "Google Machine Learning Crash Course",
+            "url": "https://developers.google.com/machine-learning/crash-course",
+            "type": "Course",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "Deep Learning": {
+    "importance": "High",
+    "description": "Neural network architectures for vision, speech, sequential data, and generative models.",
+    "stages": {
+      "Beginner": {
+        "topics": "Feedforward neural networks, backpropagation, activation functions, loss functions",
+        "resources": [
+          {
+            "title": "DeepLearning.AI Deep Learning Specialization",
+            "url": "https://www.deeplearning.ai/courses/deep-learning-specialization/",
+            "type": "Course",
+            "free": true
+          },
+          {
+            "title": "PyTorch 60-Minute Blitz",
+            "url": "https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html",
+            "type": "Tutorial",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "Convolutional Neural Networks (CNNs), Recurrent Networks (LSTMs), transfer learning",
+        "resources": [
+          {
+            "title": "Fast.ai Practical Deep Learning for Coders",
+            "url": "https://course.fast.ai/",
+            "type": "Course",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Transformer architecture, attention mechanisms, fine-tuning LLMs, multi-modal systems",
+        "resources": [
+          {
+            "title": "Hugging Face NLP Course",
+            "url": "https://huggingface.co/learn/nlp-course/chapter1/1",
+            "type": "Interactive Course",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "Power BI": {
+    "importance": "High",
+    "description": "Enterprise business intelligence tool for interactive reports, KPIs, and dashboards.",
+    "stages": {
+      "Beginner": {
+        "topics": "Importing data, standard chart visuals, filtering, slicers, basic formatting",
+        "resources": [
+          {
+            "title": "Microsoft Power BI Guided Learning",
+            "url": "https://learn.microsoft.com/en-us/power-bi/guided-learning/",
+            "type": "Official Microsoft Learn",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "Data modeling, relationships (star schema), DAX calculated columns and basic measures",
+        "resources": [
+          {
+            "title": "SQLBI DAX Guide and Articles",
+            "url": "https://www.sqlbi.com/articles/",
+            "type": "Resource",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Advanced DAX (CALCULATE, time intelligence), row-level security (RLS), incremental refresh",
+        "resources": [
+          {
+            "title": "Microsoft Power BI Documentation",
+            "url": "https://learn.microsoft.com/en-us/power-bi/",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "Docker": {
+    "importance": "High",
+    "description": "Container platform standard for isolating dependencies and deploying applications.",
+    "stages": {
+      "Beginner": {
+        "topics": "Images, containers, Dockerfile creation, docker run, port mapping, environment variables",
+        "resources": [
+          {
+            "title": "Docker Official Getting Started",
+            "url": "https://docs.docker.com/get-started/",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "Docker Compose for multi-container apps, volumes, networking, multi-stage builds",
+        "resources": [
+          {
+            "title": "freeCodeCamp Docker Course",
+            "url": "https://www.freecodecamp.org/news/what-is-docker-used-for-a-docker-container-tutorial-for-beginners/",
+            "type": "Tutorial",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Production image security, caching optimization, rootless containers, orchestration integration",
+        "resources": [
+          {
+            "title": "Docker Best Practices Guide",
+            "url": "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "React": {
+    "importance": "Critical",
+    "description": "Front-end JavaScript component library powering modern interactive user interfaces.",
+    "stages": {
+      "Beginner": {
+        "topics": "JSX, functional components, props, state with useState, basic event handling",
+        "resources": [
+          {
+            "title": "React.dev Official Documentation & Quick Start",
+            "url": "https://react.dev/learn",
+            "type": "Official Docs",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "useEffect, custom hooks, Context API, React Router, form handling, HTTP requests",
+        "resources": [
+          {
+            "title": "freeCodeCamp React Full Course",
+            "url": "https://www.freecodecamp.org/news/free-react-course-2022/",
+            "type": "Course",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Performance optimization (useMemo, useCallback), Server Components, SSR with Next.js, Redux Toolkit",
+        "resources": [
+          {
+            "title": "Next.js Learn Course",
+            "url": "https://nextjs.org/learn",
+            "type": "Interactive Tutorial",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "AWS": {
+    "importance": "High",
+    "description": "Leading cloud platform providing scalable compute, storage, databases, and networking.",
+    "stages": {
+      "Beginner": {
+        "topics": "EC2 virtual servers, S3 object storage, IAM user roles and permissions, basic networking (VPC)",
+        "resources": [
+          {
+            "title": "AWS Skill Builder Free Cloud Practitioner Path",
+            "url": "https://explore.skillbuilder.aws/",
+            "type": "Official Course",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "RDS databases, Lambda serverless functions, ECS container services, CloudWatch monitoring",
+        "resources": [
+          {
+            "title": "AWS Free Tier Hands-on Labs",
+            "url": "https://aws.amazon.com/getting-started/hands-on/",
+            "type": "Hands-on",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Infrastructure as Code (Terraform / CloudFormation), multi-region architectures, cost optimization",
+        "resources": [
+          {
+            "title": "AWS Well-Architected Framework",
+            "url": "https://aws.amazon.com/architecture/well-architected/",
+            "type": "Whitepapers",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "Git": {
+    "importance": "Critical",
+    "description": "Distributed version control system for source code tracking and team collaboration.",
+    "stages": {
+      "Beginner": {
+        "topics": "git init, clone, add, commit, push, pull, status, log",
+        "resources": [
+          {
+            "title": "Git Official Documentation Book",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "Official Book",
+            "free": true
+          },
+          {
+            "title": "Learn Git Branching (Interactive)",
+            "url": "https://learngitbranching.js.org/",
+            "type": "Interactive Game",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "Branching, merging, pull requests, resolving merge conflicts, git stash, rebase",
+        "resources": [
+          {
+            "title": "GitHub Git Handbook",
+            "url": "https://docs.github.com/en/get-started/using-git/about-git",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Interactive rebase, cherry-pick, reflog recovery, submodules, Git hooks, commit conventions",
+        "resources": [
+          {
+            "title": "Pro Git Advanced Topics",
+            "url": "https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "FastAPI": {
+    "importance": "High",
+    "description": "Modern, high-performance web framework for building REST APIs with Python 3.8+.",
+    "stages": {
+      "Beginner": {
+        "topics": "Path parameters, query parameters, request bodies with Pydantic, automatic Swagger docs",
+        "resources": [
+          {
+            "title": "FastAPI Official Tutorial",
+            "url": "https://fastapi.tiangolo.com/tutorial/",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "Dependency injection, authentication (OAuth2 / JWT), database integration with SQLAlchemy",
+        "resources": [
+          {
+            "title": "TestDriven.io FastAPI Guides",
+            "url": "https://testdriven.io/guides/",
+            "type": "Tutorials",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Background tasks, WebSockets, Docker deployment, production ASGI tuning with Gunicorn/Uvicorn",
+        "resources": [
+          {
+            "title": "FastAPI Deployment Documentation",
+            "url": "https://fastapi.tiangolo.com/deployment/",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "Kubernetes": {
+    "importance": "High",
+    "description": "Automated container orchestration system for deploying, scaling, and managing containerized applications.",
+    "stages": {
+      "Beginner": {
+        "topics": "Pods, Deployments, Services, Namespaces, basic kubectl commands",
+        "resources": [
+          {
+            "title": "Kubernetes Official Tutorials",
+            "url": "https://kubernetes.io/docs/tutorials/",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "ConfigMaps, Secrets, Ingress controllers, PersistentVolumes, Helm package manager",
+        "resources": [
+          {
+            "title": "Kubernetes Basics & Hands-on Labs",
+            "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+            "type": "Tutorials",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Custom Resource Definitions (CRDs), Operators, Horizontal Pod Autoscaling, Service Mesh (Istio)",
+        "resources": [
+          {
+            "title": "Kubernetes Production Best Practices",
+            "url": "https://learnk8s.io/production-best-practices",
+            "type": "Guide",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "Tableau": {
+    "importance": "Medium",
+    "description": "Visual analytics platform transforming the way we use data to solve problems.",
+    "stages": {
+      "Beginner": {
+        "topics": "Dimensions vs Measures, connecting to data, building bar charts, line graphs, maps",
+        "resources": [
+          {
+            "title": "Tableau Free Training Videos",
+            "url": "https://www.tableau.com/learn/training",
+            "type": "Official Videos",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "Calculated fields, Table Calculations, Level of Detail (LOD) expressions, interactive dashboards",
+        "resources": [
+          {
+            "title": "Tableau Community Forums & Tutorials",
+            "url": "https://community.tableau.com/",
+            "type": "Community Guides",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "Performance recording, parameters and dynamic queries, Tableau Server/Cloud administration",
+        "resources": [
+          {
+            "title": "Tableau Documentation & Whitepapers",
+            "url": "https://help.tableau.com/current/pro/desktop/en-us/default.htm",
+            "type": "Documentation",
+            "free": true
+          }
+        ]
+      }
+    }
+  },
+  "Default_Resource": {
+    "importance": "Medium",
+    "description": "Skill foundational concepts, practical application, and integration into projects.",
+    "stages": {
+      "Beginner": {
+        "topics": "Core syntax, primary concepts, fundamental terminology, and getting-started tutorials",
+        "resources": [
+          {
+            "title": "Roadmap.sh Developer Roadmaps",
+            "url": "https://roadmap.sh/",
+            "type": "Interactive Roadmaps",
+            "free": true
+          },
+          {
+            "title": "freeCodeCamp Tech Curriculum",
+            "url": "https://www.freecodecamp.org/",
+            "type": "Course",
+            "free": true
+          }
+        ]
+      },
+      "Intermediate": {
+        "topics": "Standard design patterns, testing, performance best practices, and real-world project usage",
+        "resources": [
+          {
+            "title": "MDN Web & Tech Docs",
+            "url": "https://developer.mozilla.org/",
+            "type": "Documentation",
+            "free": true
+          },
+          {
+            "title": "GeeksforGeeks Tech Guides",
+            "url": "https://www.geeksforgeeks.org/",
+            "type": "Tutorials",
+            "free": true
+          }
+        ]
+      },
+      "Advanced": {
+        "topics": "System architecture, scalability, optimization, production maintenance, and team best practices",
+        "resources": [
+          {
+            "title": "Awesome Cheat Sheets & Curated Guides",
+            "url": "https://github.com/vinta/awesome-python",
+            "type": "Curated List",
+            "free": true
+          }
+        ]
+      }
+    }
+  }
+}
